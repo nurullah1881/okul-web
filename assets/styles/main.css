@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    --background-color-1: rgb(110, 58, 231);
+    --background-color-2: rgb(20, 0, 92);
+    --background-color-3: rgb(255, 255, 255);
+    --default-font-1: "Inter", sans-serif;
+    --text-color-1: rgb(0, 0, 0);
+    --text-color-2: rgb(63, 63, 63);
+    --text-color-3: gold;
+    --text-color-4: rgb(255, 255, 255);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--default-font-1);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-4);
+    transition: 0.2s;
+}
+
+a:hover {
+    color: var(--text-color-3);
+}
+
+section.container {
+    padding: 25px;
+    background-color: var(--background-color-3);
+    width: 80dvw;
+    border-radius: 12px;
+    color: var(--text-color-1);
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.meb-img {
+    width: 100px;
+    height: 100px;
+}
+
+.ataturk-bayrak {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo-text {
+    font-weight: 700;
+}
+
+.ust-uzaklik-1 {
+    margin-top: 1.5rem;
+}
+
+.slide-metin-1 {
+    padding: 0.7rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+.baglantilar {
+    margin-top: 1rem;
+}
+
+.baglantilar li {
+    padding: 9px;
+    border-top: 1px solid var(--text-color-4);
+}
+
+footer {
+    opacity: 0.5;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    section.container {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+    }
+}
